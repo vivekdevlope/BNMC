@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(img/welcome.png);
+        }
+        .dropdown:hover .dropdown-menu {
+            display: inline-block;
+        }
+    </style>
+  </head>
+  <body>
+
+    <!-- outer start -->
+     <div class="container-fluid">
+
+        <!-- top header start -->
+         <div class="row border-bottom border-2">
+            <div class="col-sm-4 py-2 text-center">
+                <i class="fa-brands fa-twitter fs-5 text-info"></i>&nbsp; &nbsp;
+                <i class="fa-brands fa-facebook fs-5 text-primary"></i>&nbsp; &nbsp;
+                <i class="fa-brands fa-instagram fs-5 text-danger"></i>&nbsp; &nbsp;
+                <i class="fa-brands fa-linkedin fs-5 text-primary"></i>&nbsp; &nbsp;
+                <i class="fa-brands fa-google fs-5 text-danger"></i>
+            </div>
+            <div class="col-sm-6 py-2 text-end text-danger">
+                <a href="" class="text-decoration-none small" style="color: maroon;"><i class="fa-solid fa-lock"></i> ONLINE ADMISSION & ENQUIRY </a> | 
+                <a href="" class="text-decoration-none small" style="color: maroon;"><i class="fa-solid fa-person"></i> RIEVANCE REDRESSAL </a> | 
+                <a href="" class="text-decoration-none small" style="color: maroon;"><i class="fa-solid fa-person"></i> ADMIN </a>
+            </div>
+         </div>
+        <!-- top header end -->
+
+         <!-- header start -->
+          <div class="row py-3">
+            <div class="col-sm-3 text-end">
+                <img src="img/logo.png" class="w-70" alt="logo">
+            </div>
+            <div class="col-sm-5">
+                <h5 class="" style="color: maroon;">Badri Narayan Mukteshwar College, Barhiya</h5>
+                <h5 class="" style="color: maroon;">बद्री नारायण मुक्तेश्वर कॉलेज, बड़हिया</h5>
+                <h6 class="small">(A Constituent Unit of Munger University, Munger)</h6>
+            </div>
+            <div class="col-sm-4 pt-4 ps-5">
+                <a href=""><button type="button" class="btn btn text-light" style="background-color: maroon;"><i class="fa-solid fa-gear"></i> College Automation System</button></a>
+            </div>
+          </div>
+         <!-- header end -->
+
+         <!-- nav start -->
+          <div class="row sticky-top">
+            <div class="col-sm-12" style="background-color: maroon;">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark border-bottom border-3 border-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="demo.html">Home</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              About
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">About Us</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">College Prospectus</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Vision and Mission</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Principal
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Pricipal's Profile</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Principals Succession List</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Office Order</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Academics
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Courses</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Syllabus</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Department</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Students Support
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Admission</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Fee Structure</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Time Table</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              NAAC
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">AQAR</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">SSR</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Facilities</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Etra Curricular
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">NCC</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">NSS</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Sports</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Media
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Gallery</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Video Gallery</a></li>
+                              <li><a class="dropdown-item text-light" href="#" style="background-color: maroon;">Press Release</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Study Materials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">RTI</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Events</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+          </div>
+         <!-- nav end -->
+
+         <!-- slider start -->
+          <div class="row">
+            <div class="col-sm-9">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/s1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/s2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/s3.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+            <div class="col-sm-3" style="background-color: rgba(226, 243, 206, 0.936);">
+                <div class="row">
+                    <div class="col-sm-12 bg-warning text-light py-2 fs-4 text-center">What's New</div>
+                </div>
+                <div class="row">
+                  <marquee behavior="" direction="up">
+                      <ul>
+                          <a href="" class="text-decoration-none"><li class="text-danger list-group-item"> 75% students get scholarships from state Govt. under various head like, Poshak Yojana, SC/ST/OBC fellowship. <img src="img/new.gif" alt=""></li></a>
+                          <hr class="text-danger">
+                          <a href="" class="text-decoration-none"><li class="text-danger list-group-item"> The SC/ST, OBC and economically weaker sections are getting scholarships from the Welfare department of the State Government. <img src="img/new.gif" alt=""></li></a>
+                          <hr class="text-danger">
+                          <a href="" class="text-decoration-none"><li class="text-danger list-group-item"> Scoring is on a relative scale from 0 to 100, where 100 signifies most visits on the respective colleges. <img src="img/new.gif" alt=""></li></a>
+                          <hr class="text-danger">
+                      </ul>
+                  </marquee>
+                </div>
+            </div>
+          </div>
+         <!-- slider end -->
+
+         <!-- notice start -->
+          <div class="row" style="border-color: maroon; border-style: dashed;">
+            <div class="col-sm-1 text-light" style="background-color: maroon;">Notice</div>
+            <div class="col-sm-11 text-danger small lh-lg">
+              <marquee behavior="" direction="right">
+                || <a href="#" target="_blank" class="text-decoration-none text-danger">75% students get scholarships from state Govt. under various head like, Poshak Yojana, SC/ST/OBC fellowship.</a> || 
+                || <a href="#" target="_blank" class="text-decoration-none text-danger">The SC/ST, OBC and economically weaker sections are getting scholarships from the Welfare department of the State Government.</a> || 
+                || <a href="#" target="_blank" class="text-decoration-none text-danger">Scoring is on a relative scale from 0 to 100, where 100 signifies most visits on the respective colleges.</a> || 
+              </marquee>
+            </div>
+          </div>
+         <!-- notice end -->
+
+         <!-- welcome start -->
+          <div class="row">
+            <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+              <span class="text-danger">WELCOME</span>
+              <span>TO BADRI NARAYAN MUKTESHWAR COLLEGE</span>
+            </div>
+          </div>
+
+          <div class="row pt-4">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6 pe-3" style="text-align: justify;">
+              <p><b>Badri Narayan Mukteshwar College, Barhiya</b> is the oldest institute of higher learning in the Lakhisarai district. Late Badri Narayan Mukteshwar had a dream to open a higher learning institute for the students of rural area. B.N.M College, Barhiya believes in providing quality education and information about courses to students & their parents to match their needs in collaboration of Search Education Portal.<br><br>
+
+                The College ensures publicity and transparency in the admission process. It is very particular to cater to the needs of differently abled students. The college is primitive to gender sensitivity, inclusive education and environment friendly ethos among students. The Purpose of the B.N.M.College, Barhiya is to stimulate and coordinate the institutional resources of the College and to challenge faculties and students.</p>
+            </div>
+            <div class="col-sm-5">
+              <img src="img/welcome.png" class="w-75" alt="">
+            </div>
+          </div>
+         <!-- welcome end -->
+
+         <!-- our mentors start -->
+          <div class="row">
+            <div class="col-sm-12 text-center fs-3 fw-bold my-2">
+              <span class="text-danger">OUR</span>
+              <span>MENTORS</span>
+            </div>
+          </div>
+
+          <div class="row mt-5 mb-4">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+              <div class="row row-cols-1 row-cols-md-4 g-2 text-center">
+                <div class="col">
+                  <div class="card h-100 w-75 rounded-0" style="border: 0px; box-shadow: 5px 5px 10px 1px gray;">
+                    <img src="img/m1.jpg" class="card-img-top w-75 mx-auto rounded-0 mt-5" style="box-shadow: 5px 5px 20px 1px gray;" alt="...">
+                    <div class="card-body">
+                      <p class="card-title text-danger">Shri Rajendra Arlekar</p>
+                      <p class="card-text">Hon'ble Governor<br>
+                        Bihar</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75 rounded-0" style="border: 0px; box-shadow: 5px 5px 10px 1px gray;">
+                    <img src="img/m2.jpg" class="card-img-top w-75 mx-auto rounded-0 mt-5" style="box-shadow: 5px 5px 20px 1px gray;" alt="...">
+                    <div class="card-body">
+                      <p class="card-title text-danger">Shri Nitish Kumar</p>
+                      <p class="card-text">Hon'ble Chief Minister<br>
+                        Bihar</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75 rounded-0" style="border: 0px; box-shadow: 5px 5px 10px 1px gray;">
+                    <img src="img/m3.jpg" class="card-img-top w-75 mx-auto rounded-0 mt-5" style="box-shadow: 5px 5px 20px 1px gray;" alt="...">
+                    <div class="card-body">
+                      <p class="card-title text-danger">Prof. Shyama Roy</p>
+                      <p class="card-text">Hon'ble Vice Chancellor<br>
+                        Munger University</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 w-75 rounded-0" style="border: 0px; box-shadow: 5px 5px 10px 1px gray;">
+                    <img src="img/m4.png" class="card-img-top w-75 mx-auto rounded-0 mt-5" style="box-shadow: 5px 5px 20px 1px gray;" alt="...">
+                    <div class="card-body">
+                      <p class="card-title text-danger">Dr. Ashutosh Kumar</p>
+                      <p class="card-text">Principal<br>
+                        BNM College</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!-- our mentors end -->
+
+         <!-- principal message start -->
+          <div class="row">
+            <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+              <span class="text-danger"> PRINCIPAL'S </span>
+              <span> MESSAGE</span>
+            </div>
+          </div>
+
+          <div class="row py-3" style="background-color: maroon;">
+            <div class="col-sm-3">
+              <img src="img/principal.png" class="w-100 h-100" alt="">
+            </div>
+            <div class="col-sm-9 text-light">
+              <p>It's a pleasure to be a professor in charge and Principal of an educational institute of a very remote sensitive area <b>BADRI NARAYAN MUKTESHWAR COLLEGE BARHIYA.</b> A dream come true of the visionary Late Badri Narayan to enhance the quality of higher education of the rural society, particularly of the traditional girls/women of this remote area. One of the oldest higher educational institutions of old Munger District.<br><br>
+
+
+                Any young person taking admission in this premier institution must not only have the required marks, but must aim at excellence in whatever he or she attempts, all the time keeping in mind and in practice, a disciplined and a diligent attitude. I welcome the prospective students of B.N.M College to its campus, to benefit from its rich academic tradition so that they may step out into the world as worthy citizens of our country.</p>
+                <h4>Dr. Ashutosh Kumar</h4>
+                <p>Principal, BNM College</p>
+            </div>
+          </div>
+         <!-- principal message end -->
+
+         <!-- our association start -->
+         <div class="row">
+          <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+            <span class="text-danger"> OUR </span>
+            <span> ASSOCIATIONS</span>
+          </div>
+         </div>
+
+         <div class="row my-5">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+            <div class="row">
+              <div class="col">
+                <img src="img/ass1.jpg" class="h-75" alt="">
+              </div>
+              <div class="col">
+                <img src="img/ass2.png" class="h-75" alt="">
+              </div>
+              <div class="col">
+                <img src="img/ass3.png" class="h-50" alt="">
+              </div>
+              <div class="col">
+                <img src="img/ass4.png" class="h-75" alt="">
+              </div>
+              <div class="col">
+                <img src="img/ass5.jpg" class="h-75" alt="">
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- our association end -->
+
+         <!-- student information system start -->
+          <div class="row text-light text-center" style="background-color: maroon;">
+            <div class="col-sm-12 py-5">
+              <h3>STUDENT INFORMATION SYSTEM</h3><br><br>
+              <p>This section will deal with all the information pertaining to a student such as personal, academic as well as digital documents and student report.</p><br>
+              <button type="button" class="btn bg-light text-danger">SIGN-IN</button>
+            </div>
+          </div>
+         <!-- student information system end -->
+
+         <!-- statics of education start -->
+         <div class="row">
+          <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+            <span class="text-danger"> STATISTICS </span>
+            <span> OF EDUCATION</span>
+          </div>
+         </div>
+
+         <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 text-center py-4">
+            <div class="row">
+              <div class="col-sm-3">
+                <i class="fa-solid fa-book fs-1"></i><br><br>
+                <p class="fs-3">17<sup>+</sup></p>
+                <p class="text-danger fs-5">Our Courses</p>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa-solid fa-person fs-1"></i><br><br>
+                <p class="fs-3">20<sup>+</sup></p>
+                <p class="text-danger fs-5">Our Staff</p>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa-solid fa-building-columns fs-1"></i><br><br>
+                <p class="fs-3">60<sup>+</sup></p>
+                <p class="text-danger fs-5">Year Of Established</p>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa-solid fa-graduation-cap fs-1"></i><br><br>
+                <p class="fs-3">5000<sup>+</sup></p>
+                <p class="text-danger fs-5">Graduates</p>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- statics of education end -->
+
+         <!-- testimonials start -->
+          <div class="row" style="background-color: maroon;">
+            <div class="col-sm-12">
+              <div class="row text-light">
+                <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+                  <span>TESTIMONIALS</span>
+                </div>
+              </div>
+
+              <div class="row my-3">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner text-light text-center">
+                      <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="img/t1.png" class="d-block rounded-circle mx-auto" alt="...">
+                        <h3>Anuj</h3><br>
+                        <p>B.A.</p>
+                        <p>I feel very grateful to write a review for an institution which has actually been a family to me. After my schooling , like all other students I was also puzzled with many questions about my further studies and college life.</p>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="1000">
+                        <img src="img/t2.jpg" class="d-block rounded-circle mx-auto" alt="...">
+                        <h3>Priyanka</h3><br>
+                        <p>B.Sc.</p>
+                        <p>The faculties have helped me throughout my academic years. The hostel and canteen facilities made it feel like home away from home.</p>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/t3.jpg" class="d-block rounded-circle mx-auto" alt="...">
+                        <h3>Ajay</h3><br>
+                        <p>B.A.</p>
+                        <p>Coming to B.N.M College was definitely a right choice. The learning materials provided by the faculties were easy to understand. I have grown so much here.</p>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+               </div>
+            </div>
+          </div>
+         <!-- testimonials end -->
+
+         <!-- our gallery start -->
+         <div class="row">
+          <div class="col-sm-12 text-center fs-3 fw-bold my-3">
+            <span class="text-danger"> OUR </span>
+            <span> GALLERY</span>
+          </div>
+         </div>
+
+         <div class="row mt-5">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100" style="border: 0px;">
+                  <img src="img/g1.jpg" class="card-img-top" style="height: 250px;" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="border: 0px;">
+                  <img src="img/g2.jpg" class="card-img-top" style="height: 250px;" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="border: 0px;">
+                  <img src="img/g3.jpg" class="card-img-top" style="height: 250px;" alt="...">
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <div class="row">
+          <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn text-light" style="background-color: maroon;">
+              <i class="fa-solid fa-eye"></i> View More
+            </button>
+          </div>
+         </div>
+         <!-- our gallery end -->
+
+         <!-- footer start -->
+          <div class="row mt-5 pt-4 text-light" style="background-color: maroon;">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row text-light border-bottom border-2">
+                    <div class="col-sm-3">
+                        <h5>Address</h5>
+                        <p><i class="fa-solid fa-location-dot"></i> Badri Narayan Mukteshwar College
+                            Pin Code : 210208
+                            District : Lakhisarai
+                            State : Uttar Pradesh</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Follow On Us</h5>
+                        <p><i class="fa-solid fa-phone"></i> +91 9431492955<br><br>
+                            <i class="fa-solid fa-envelope"></i> bnmcollegebarhiya@gmail.com<br><br>
+                            <i class="fa-brands fa-twitter fs-5"></i>&nbsp; &nbsp; &nbsp;
+                            <i class="fa-brands fa-facebook fs-5"></i>&nbsp; &nbsp; &nbsp;
+                            <i class="fa-brands fa-instagram fs-5"></i>&nbsp; &nbsp; &nbsp;
+                            <i class="fa-brands fa-linkedin fs-5"></i>&nbsp; &nbsp; &nbsp;
+                            <i class="fa-brands fa-google fs-5"></i>
+                        </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Important Links</h5>
+                            <p> <i class="fa-solid fa-link"></i> Munger University, Munger<br>
+                                <i class="fa-solid fa-link"></i> University Grants Commision<br>
+                                <i class="fa-solid fa-link"></i> NPTEL Lectures<br>
+                                <i class="fa-solid fa-link"></i> Swayam Student Portal<br>
+                                <i class="fa-solid fa-link"></i> Grievance Redressal System</p>
+                        </div>
+                    <div class="col-sm-3">
+                        <h5>Find The Way</h5>
+                            <p><iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57721.88737485849!2d86.028044!3d25.283434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2168bfa051293%3A0x6e443562781ddb25!2sBNM%20COLLAGE!5e0!3m2!1sen!2sin!4v1721983795051!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    </div>
+                </div>
+                <div class="row text-center text-center py-2">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        Quick Links | <a href="" class="text-decoration-none text-light">Digilocker</a> | <a href="" class="text-decoration-none text-light">Image Gallery</a> | <a href="" class="text-decoration-none text-light">Press Release</a> | <a href="" class="text-decoration-none text-light">FAQ's</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+         <!-- footer end -->
+
+         <!-- copyright start -->
+          <div class="row" style="background-color: rgb(80, 0, 0);">
+            <div class="col-sm-12 text-light text-center lh-lg">
+                <p>© Copyright 2024 Designed & Developed By | Softpro India Computer Technologies (P) Ltd.</p>
+            </div>
+          </div>
+         <!-- copyright end -->
+     </div> 
+    <!-- outer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
